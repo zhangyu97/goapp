@@ -9,7 +9,6 @@
 	.banner{
 		width: 100%;
 		height: 4rem;
-		background: yellow;
 		position: relative;
 	}
 	.banner li{
@@ -25,7 +24,7 @@
 		width: 100%;
 		height: 100%;
 	}
-	.banner li a img{
+	.swiper-slide img{
 		width: 100%;
 		height: 100%;
 	}
@@ -37,13 +36,14 @@
 		height: 1.27rem;
 		background: #fff;
 		position: absolute;
-		bottom: -0.75rem;
+		bottom: -1.2rem;
 		left: 0;
 		right: 0;
 		margin-left: auto;
 		margin-right: auto;
 		border-radius: 0.1rem;
 		box-shadow: 0 5px 8px rgba(0,0,0,.3);
+		z-index: 999;
 	}
 	.sou .s_left{
 		width: 1.3rem;
@@ -67,9 +67,8 @@
 		font-size: 0.3rem;
 		color: #9C9A9C;
 		float: right;
-		line-height: 0.7rem;
+		line-height: 0.8rem;
 		font-weight: bold;
-		margin-left: 0.1rem;
 	}
 	.sou input{
 		width: 7.35rem;
@@ -88,9 +87,9 @@
 /* 列表开始 */
 	.list{
 		width: 100%;
-		height: 5.65rem;
+		height: 6.2rem;
 		background: #fff;
-		padding: 1.1rem  0 0 0.34rem;
+		padding: 1.55rem  0 0 0.34rem;
 		box-sizing: border-box;
 		margin-bottom: 0.3rem;
 	}
